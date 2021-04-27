@@ -5,9 +5,18 @@
 }
 
 body {
-    background-image: url(imgs/black-low-poly-background-vector.jpg);
+    /* background-image: url(imgs/black-low-poly-background-vector.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #111010;
+}
+
+h2{
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
 }
 /* 
 .one {
@@ -50,8 +59,29 @@ body {
     /* text-shadow: 0px 20px 15px #c2bcbc6c; */
 */
 
-button a{
+
+.button a{
     text-decoration: none;
+    color: white;
+}
+.button{
+background-color: transparent;
+  padding: 4px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: #fff;
+    
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: white;
 }
 
 .title{
@@ -59,13 +89,22 @@ button a{
 }
 .text {
     position: fixed;
-    top: 5%;
-    left: 30%;
+    top: 20%;
+    left: 5%;
     color: white;
 }
 
+table{
+    border: 1px solid wheat;
+}
+
+th{
+    border: 1px solid wheat;
+    
+
+}
 td{
-    padding-right: 20px;
+    padding: 5px 40px;
 }
 
 nav {
